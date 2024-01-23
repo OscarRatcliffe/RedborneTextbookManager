@@ -3,16 +3,24 @@ import cors from 'cors';
 const app = express()
 
 let port = 5000
+let startingText = "Starting Text"
 
 app.use(cors({
     origin: "*"
 }));
 
+app.use(express.json())
+
 app.get('/Test', (req, res) => {
   res.send({
     "Test": 123,
-    "OtherTest": "Wo]sevibevohb"
+    "OtherTest": startingText
   })
+})
+
+app.post('/Update', (req,res) => {
+  startingText = req.body.toUpdate;
+  console.log(`Text has been updated to ${startingText}`)
 })
 
 app.listen(port, () => {
