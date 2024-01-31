@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Great Gatsby",
+        "author": "Scott Fitzgerald",
+        "publishYear": 1925,
+        "genre": "Historical fiction",
+        "assignment": {
+            "isAssigned": true,
+            "assignedTo": "English"
+        }
+    },
+    {
+        "name": "Harry Potter and the Philosopher's stone",
+        "author": "JK Rowling",
+        "publishYear": 1997,
+        "genre": "Historical fiction",
+        "assignment": {
+            "isAssigned": true,
+            "assignedTo": "Comp Sci"
+        }
+    }
+]
