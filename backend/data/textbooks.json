@@ -15,8 +15,8 @@
         "publishYear": 1997,
         "genre": "Historical fiction",
         "assignment": {
-            "isAssigned": true,
-            "assignedTo": "Comp Sci"
+            "isAssigned": false,
+            "assignedTo": null
         }
     }
 ]
